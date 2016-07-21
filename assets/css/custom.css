@@ -10,3 +10,18 @@ body {
 .template-heading {
   padding: 40px 15px;
 }
+.col-sm-3 {
+	text-align: center;
+}
+.whiteh4 {
+	color: #fff;
+	text-align: center;
+}
+/*.col-sm-3 {
+	/* bootstrap column modifier */
+	width:30%; /* original bootstrap width is 25%
+}*/
+/*.col-sm-8 {
+	/* bootstrap column modifier */
+	width:55%; /* original bootstrap width is 66.6666666667%
+}*/
