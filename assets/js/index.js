@@ -1,5 +1,5 @@
 //clipboard.js for copying to clipboard
-new Clipboard("#email");
+new Clipboard("#gmail");
 
 //hide all the social buttons
 $("#github").hide();
@@ -15,14 +15,16 @@ $(document).ready(function () {
 				$("#gmail").tooltip('destroy')
 			}, 800);
 	});
+
 //show all social buttons slowly
 setTimeout(function(){
-	$("#gmail").show("fade", "slow", 1000);
-}, 300);
+	$("#gmail").css('visibility','visible').show("slide", "slow", 1000);
+}, 500);
 setTimeout(function(){
-	$("#facebook").show("fade", "slow", 1000);
-}, 1000);
+	$("#facebook").css('visibility','visible').show("slide", "slow", 1000);
+}, 1200);
 setTimeout(function(){
-	$("#github").show("fade", "slow", 1000);
-}, 1700);
+	$("#github").css('visibility','visible').show("slide", "slow", 1000);
+}, 1900);
+
 });
