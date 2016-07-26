@@ -14,6 +14,9 @@ const account = require("./controllers/account.js");
 // routes
 
 routes.get("/", main.index);
+routes.get("/web", main.web);
+routes.get("/game", main.game);
+routes.get("/utility", main.utility);
 
 // for passport
 routes.get("/login", account.login);
