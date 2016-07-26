@@ -17,11 +17,13 @@ body {
 	color: #fff;
 	text-align: center;
 }
-/*.col-sm-3 {
-	/* bootstrap column modifier */
-	width:30%; /* original bootstrap width is 25%
-}*/
-/*.col-sm-8 {
-	/* bootstrap column modifier */
-	width:55%; /* original bootstrap width is 66.6666666667%
-}*/
+.slick-dots li button:before {
+	font-sizeL 16px;
+	color: white;
+}
+.slick-dots li.slick-active button:before {
+	color:white;
+}
+.container {
+	text-align: center;
+}

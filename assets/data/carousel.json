@@ -1,0 +1,22 @@
+{
+   "data":[
+      {
+         "tag":"web, game",
+         "name":"Open Hearts",
+				 "date": "07/26/2016",
+         "description":"Open Hearts is a browser based. open source, game of Hearts! It's coded using JavaScript, Node.js, and couchDB. The backend was done using KOA and the front end is react.js. There are a couple other goodies in there such as Handlebars, socket.io, eslint for formatting, and mocha/chai/instanbul for TDD."
+      },
+      {
+         "tag":"utility",
+         "name":"PokemonGo-Map-EasyStart",
+				 "date": "07/26/2016",
+         "description":"This utility was made with C# and WPF. It was made as an easier way for people to start the PokemonGo-Map using Python. Since you had to type in the command to command line, I saw an opportunity to make a quit streamlined app for people who weren't as technically advanced!"
+      },
+      {
+         "tag":"game",
+         "name":"The Last Stand",
+				 "date": "07/26/2016",
+         "description":"The Last Stand is a game being developed under ThouCurator. It's a 3D, top down, 3rd person mech shooter. It's being developed using C#, Unity3D, and SQL Server"
+      }
+   ]
+}
