@@ -93,6 +93,7 @@ body {
   font-size: 1.25em;
   line-height: 1.45em;
   color: #3A4145;
+	background-color: #f2efe8;
 }
 
 ::-moz-selection {
@@ -453,7 +454,7 @@ a:hover {
 .content .post {
   padding-bottom: 1em;
   margin-top: 1em;
-  border-bottom: #EBF2F6 1px solid;
+  border-bottom: #4a4a4a 1px solid;
   word-break: break-word;
   hyphens: auto;
 }
@@ -605,7 +606,7 @@ a:hover {
   margin: 1em 0 1em 0;
   text-align: left;
   max-width: 800px;
-  border-bottom: 1px solid #EBF2F6;
+  border-bottom: 1px solid #4a4a4a;
 }
 
 .tag-archive-header i {
