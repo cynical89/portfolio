@@ -709,3 +709,7 @@ a:hover {
     width: 32%;
   }
 }
+
+body.home-template {
+	background-color: #f2efe8;
+}
