@@ -1,0 +1,32 @@
+<div class="sidebar" role="aside" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+    <header class="header" role="banner">
+        {{! The logo of the blog }}
+        <a href="/"><img id="blog" class="logo" src="{{@blog.logo}}"></a>
+
+        {{! The title of the blog }}
+        <h1 class="title"><a href="/">{{@blog.title}}</a></h1>
+
+        {{! The description of the blog }}
+        <p class="description">{{@blog.description}}</p>
+
+        {{! Small separator between user details and menu }}
+        <div class="separator"></div>
+
+        {{! Navigation menu }}
+        {{> "nav"}}
+
+        {{! Social links }}
+        <div class="social-icons">
+            <a href="https://github.com/cynical89" class="icon icon-github-circled" title="github"></a>
+            <a href="https://www.facebook.com/tony.michelizzi" class="icon icon-facebook" title="facebook"></a>
+            <a href="http://stackoverflow.com/cv/amichelizzi" class="fa fa-list" aria-hidden="true" title="resume"></a>
+            <a href="/rss" class="icon icon-rss"></a>
+            <a href="mailto:cynical89@gmail.com" class="icon icon-mail" title="email"></a>
+        </div>
+    </header>
+
+    <footer class="site-footer">
+        <section class="copyright">{{> "copyright"}}</section>
+        <section class="poweredby">Proudly published with <a class="ghost-link" href="https://ghost.org">Ghost</a> using the <a class="ghost-link" href="https://github.com/calincru/KISS">KISS</a> theme. Powered by <a class="ghost-link" href="https://digitalocean.com">DigitalOcean</a>.</section>
+    </footer>
+</div>
