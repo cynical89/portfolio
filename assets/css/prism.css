@@ -130,3 +130,6 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
+body{
+	background-color: #f2efe8;
+}
