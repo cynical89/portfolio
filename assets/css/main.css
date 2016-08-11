@@ -65,7 +65,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-github-circled:before { content: '\e800'; }
+.icon-github-circled:before { content: '\f09b'; }
 .icon-linkedin:before { content: '\e801'; }
 .icon-gplus:before { content: '\e802'; }
 .icon-facebook:before { content: '\e803'; }
@@ -73,7 +73,7 @@
 .icon-rss:before { content: '\e805'; }
 .icon-mail:before { content: '\e806'; }
 .icon-tag:before { content: '\e807'; }
-.icon-doc-text-inv:before { content: '\f15c'; }
+.icon-doc:before { content: '\e800'; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
