@@ -66,14 +66,10 @@
 }
 
 .icon-github-circled:before { content: '\f09b'; }
-.icon-linkedin:before { content: '\e801'; }
-.icon-gplus:before { content: '\e802'; }
-.icon-facebook:before { content: '\e803'; }
-.icon-twitter:before { content: '\e804'; }
-.icon-rss:before { content: '\e805'; }
-.icon-mail:before { content: '\e806'; }
-.icon-tag:before { content: '\e807'; }
-.icon-doc:before { content: '\e800'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-rss:before { content: '\f09e'; }
+.icon-mail-alt:before { content: '\f0e0'; }
+.icon-doc-text:before { content: '\f0f6'; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
