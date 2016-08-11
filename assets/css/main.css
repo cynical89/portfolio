@@ -73,6 +73,7 @@
 .icon-rss:before { content: '\e805'; }
 .icon-mail:before { content: '\e806'; }
 .icon-tag:before { content: '\e807'; }
+.icon-doc:before { content: '\f15c'}
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
